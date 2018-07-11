@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		position: relative;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.major {
+			text-align: center;
+			cursor: default;
+			background-color: #37c0fb;
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			color: #fff;
+			border-radius: 100%;
+			display: inline-block;
+			width: 5em;
+			height: 5em;
+			line-height: 5em;
+			box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+			margin: 0 0 2em 0;
+		}
+
+			.icon.major:before {
+				font-size: 36px;
+			}
+
+.page__footer-follow
+{
+  text-align: center;
+  margin: 0;
+}
+
+.page__footer-copyright {
+  text-align: center;
+  margin: 0;
+  }
+
+	/* Twitter */
+	.fa-twitter {
+	    background: #55ACEE;
+	    color: white;
+	}
