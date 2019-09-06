@@ -47,11 +47,7 @@ analytics:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+#links:
 #  - title: Curriculum
 #    url: /cv/
 #  - title: Publications
