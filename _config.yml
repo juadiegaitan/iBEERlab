@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Integrative Biology & Evolutionary Ecology Research"
+title                    : "Integrative Biology and Evolutionary Ecology Research"
 title_separator          : "-"
 name                     : "iBEER lab at HKU"
 #description              : "An amazing website."
